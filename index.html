@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"></div>
+            <p>UI/UX Designer</p>
+            <h1 style="color: #ff004f;">Hi, I'm Meshack<br>you can call me Mesto</h1>
+        </div>
+    </div>
+    <!--------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/image 1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As i said am Meshack but i prefer Mesto.I have many hobbys to name a few,one of my
+                        hobby is Football.A arsenal fan at heart,<strong>"WE GONER WIN THE LEAGUE"</strong>Yeah i like video games,
+                        <strong>obessed</strong>.Lets say i am like a book,every chapter has an intresting thing about me.I like also 
+                        to draw but the talent is fading, i can play basketball lets am all round i even tried rugby and i was a good
+                        stepper.Thats it can't think of things that i have done.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab"  id="Skills"><br>
+                            <ul>
+                                <li><span>Footballer</span><br>Prolific winger</li>
+                                <li><span>Artsit</span><br>hyperrealisim drawing</li>
+                                <li><span>UI?UX</span><br>Aspiring full stack Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="education"><br>
+                            <ul>
+                                <li><span>2024 - Current</span><br>Learning Software engineering </li>
+                                <li><span>2020 - 2023</span><br>Finished High School</li>
+                                <li><span>2015 - 2019</span><br>FInished Primary School</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------Hobbies------------------------------>
+<div id="Hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="Hobby-list">
+            <div>
+                <i class="fa-solid fa-futbol"></i>
+                <h2>Football</h2>
+                <p>Lorem ipsum dolor, sit amet
+                     consectetur adipisicing elit. Quas incidunt nobis eius libero
+                      dignissimos, inventore, aspernatur illo quo quos rem veritatis
+                       voluptatem aliquam perferendis expedita autem laborum unde nesciunt
+                        eum.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Art making</h2>
+                <p>Lorem ipsum dolor, sit amet
+                     consectetur adipisicing elit. Quas incidunt nobis eius libero
+                      dignissimos, inventore, aspernatur illo quo quos rem veritatis
+                       voluptatem aliquam perferendis expedita autem laborum unde nesciunt
+                        eum.</p>
+                <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+<!--------------Dreams--------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Dreams</h1>
+        <div class="Dream-list">
+          <div class="Dream">
+             <img src="/images/to do list.jpg">
+             <div class="layer">
+                <h3>Nothing to do</h3>
+                <p>It depicts how bored sometimes life is.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+          </div>
+          <div class="Dream">
+             <img src="/images/code 2.jpg">
+             <div class="layer">
+                <h3>Eat Sleep Game</h3>
+                <p>Eat,is a best way to reenergize.
+                    Sleep best way to calm down.Game is the best way to interact</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+          </div>
+          <div class="Dream">
+             <img src="/images/code 3.jpg">
+             <div class="layer">
+                <h3>Have a Break</h3>
+                <p>Everyone needs break in what he/she does once in a while.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+          </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------contacts------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>meshackorina93@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0794775987</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+    <div class="copright">
+        <p>Copyright <i class="fa-regular fa-copyright" style="color: #e6180a;"></i> Meshack.</p>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/3d7b26c2dd.js" crossorigin="anonymous"></script>
+    <script> src="./portfolio.js"</script>
+</body>
+</html>
